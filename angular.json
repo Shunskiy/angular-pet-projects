@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://shunskiy.github.io/angular-pet-projects/",
             "outputPath": "dist/angular-test",
             "index": "src/index.html",
             "main": "src/main.ts",
