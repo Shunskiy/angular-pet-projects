@@ -1,0 +1,20 @@
+<ul class="todo">
+  <li class="todo__item" *ngFor="let task of tasks">
+    <input type="checkbox" [(ngModel)]="task.complete" [id]="task.$id" (click)="updateTask(task.$id, task.complete)">
+    <label [for]="task.$id">
+      <s *ngIf="task.complete">
+        {{task.task}}
+      </s>
+      <span *ngIf="!task.complete">
+        {{task.task}}
+      </span>
+    </label>
+  </li>
+</ul>
+
+<div>
+  <input type="text" [(ngModel)]="taskCopy">
+  <button (click)="addTask(taskCopy)">
+    Add
+  </button>
+</div>

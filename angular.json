@@ -97,6 +97,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://github.com/Shunskiy/angular-pet-projects/",
+            "name": "Shu",
+            "email": "pas4o@yandex.ru"
+          }
         }
       }
     }

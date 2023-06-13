@@ -1,0 +1,51 @@
+:host {
+  max-width: 400px;
+  width: 100%;
+}
+
+.weather {
+  width: 100%;
+}
+
+.weather__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: #EEF0EB;
+}
+
+.weather__image {
+  h1 {
+    margin: 8px 0;
+  }
+}
+
+.weather__image {
+  max-width: 600px;
+  width: 100%;
+}
+
+.weather__forecast-title {
+  margin: 8px 0;
+}
+
+.weather__forecast {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.weather__form {
+  display: flex;
+  width: 100%;
+
+  input {
+    flex: 1;
+  }
+}
+
+input {
+  width: 100%;
+}
